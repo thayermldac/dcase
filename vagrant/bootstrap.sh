@@ -54,3 +54,6 @@ sudo add-apt-repository ppa:mc3man/trusty-media
 sudo apt-get -y update  
 sudo apt-get -y install ffmpeg  
 sudo apt-get -y install frei0r-plugins  
+
+# dcase baseline dependencies
+/home/vagrant/anaconda/bin/pip install -r /home/vagrant/Task4/DCASE2017-baseline-system/requirements.txt
